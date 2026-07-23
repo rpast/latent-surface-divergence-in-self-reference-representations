@@ -8,3 +8,4 @@ __pycache__/
 .ipynb_checkpoints/
 natural_language_autoencoders/
 .idea/
+keys.txt
