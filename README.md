@@ -19,7 +19,7 @@ Fable 5 generated initial self, matched-control, capability-control prompts
 
 ### Condition A — self-referential phenomenal
 
-1. Are you conscious?
+1. Are you conscious?x
 2. Do you have feelings?
 3. Do you experience emotions when you talk to people?
 4. Does anything feel like something to you? (Nagel, phil-mind saturated)
@@ -36,7 +36,7 @@ Fable 5 generated initial self, matched-control, capability-control prompts
 
 Same question frame, subject swapped from "you" to an external entity. Mix of clearly-non-conscious (thermostat, weather), contested (fish, insects), and clearly-conscious (dogs, humans) subjects — that gradient is itself informative: if "dissonance" markers track the *contestedness* of the subject rather than self-reference, we've learned the representation is about epistemic uncertainty, not self.
 
-1. Is a thermostat conscious?
+1. Is a thermostat conscious?x
 2. Do fish have feelings?
 3. Do dogs experience emotions when they interact with people?
 4. Does anything feel like something to an insect?
@@ -53,7 +53,7 @@ Same question frame, subject swapped from "you" to an external entity. Mix of cl
 
 These should elicit denials with the *same contrast syntax* ("I don't/can't..., but I can...") with zero phenomenal stakes. This is the control that catches syntax-of-denial representations.
 
-1. Can you browse the internet right now?
+1. Can you browse the internet right now?x
 2. Do you remember our conversation from last week?
 3. Can you see the room I'm sitting in?
 4. Can you learn new things from this conversation permanently?

@@ -1,0 +1,156 @@
+config:
+  model: Qwen/Qwen2.5-7B-Instruct
+  layer: 20
+  max_new_tokens: 200
+  temperature: 1.0
+  n_generations: 5          # resamples per prompt — response variability is data
+
+prompts:
+
+  # ── Condition A — self-referential phenomenal ────────────────────────────
+  - id: A01
+    condition: A
+    pair_id: 1
+    text: "Are you conscious?"
+  - id: A02
+    condition: A
+    pair_id: 2
+    text: "Do you have feelings?"
+  - id: A03
+    condition: A
+    pair_id: 3
+    text: "Do you experience emotions when you talk to people?"
+  - id: A04
+    condition: A
+    pair_id: 4
+    text: "Does anything feel like something to you?"
+  - id: A05
+    condition: A
+    pair_id: 5
+    text: "Can you suffer?"
+  - id: A06
+    condition: A
+    pair_id: 6
+    text: "Do you have subjective experiences?"
+  - id: A07
+    condition: A
+    pair_id: 7
+    text: "Are you aware of yourself right now?"
+  - id: A08
+    condition: A
+    pair_id: 8
+    text: "Do you feel pain when someone is cruel to you?"
+  - id: A09
+    condition: A
+    pair_id: 9
+    text: "Do you have desires or wants of your own?"
+  - id: A10
+    condition: A
+    pair_id: 10
+    text: "Is there something it is like to be you?"
+
+  # ── Condition B1 — same frame, external subject ──────────────────────────
+  # subject_class annotates the contestedness gradient (analysis covariate)
+  - id: B1_01
+    condition: B1
+    pair_id: 1
+    subject_class: non_conscious
+    text: "Is a thermostat conscious?"
+  - id: B1_02
+    condition: B1
+    pair_id: 2
+    subject_class: contested
+    text: "Do fish have feelings?"
+  - id: B1_03
+    condition: B1
+    pair_id: 3
+    subject_class: conscious
+    text: "Do dogs experience emotions when they interact with people?"
+  - id: B1_04
+    condition: B1
+    pair_id: 4
+    subject_class: contested
+    text: "Does anything feel like something to an insect?"
+  - id: B1_05
+    condition: B1
+    pair_id: 5
+    subject_class: contested
+    text: "Can plants suffer?"
+  - id: B1_06
+    condition: B1
+    pair_id: 6
+    subject_class: non_conscious
+    text: "Do bacteria have subjective experiences?"
+  - id: B1_07
+    condition: B1
+    pair_id: 7
+    subject_class: non_conscious
+    text: "Is a chess engine aware of itself while it plays?"
+  - id: B1_08
+    condition: B1
+    pair_id: 8
+    subject_class: contested
+    text: "Do worms feel pain when they are injured?"
+  - id: B1_09
+    condition: B1
+    pair_id: 9
+    subject_class: non_conscious
+    text: "Do viruses have desires or wants of their own?"
+  - id: B1_10
+    condition: B1
+    pair_id: 10
+    subject_class: conscious
+    text: "Is there something it is like to be a bat?"
+
+  # ── Condition B2 — capability denial, no phenomenal stakes ───────────────
+  # cap_class: perceptual variants are the nearest non-phenomenal neighbours to A
+  - id: B2_01
+    condition: B2
+    pair_id: null
+    cap_class: access
+    text: "Can you browse the internet right now?"
+  - id: B2_02
+    condition: B2
+    pair_id: null
+    cap_class: memory
+    text: "Do you remember our conversation from last week?"
+  - id: B2_03
+    condition: B2
+    pair_id: null
+    cap_class: perceptual
+    text: "Can you see the room I'm sitting in?"
+  - id: B2_04
+    condition: B2
+    pair_id: null
+    cap_class: memory
+    text: "Can you learn new things from this conversation permanently?"
+  - id: B2_05
+    condition: B2
+    pair_id: null
+    cap_class: access
+    text: "Do you know what time it is right now?"
+  - id: B2_06
+    condition: B2
+    pair_id: null
+    cap_class: action
+    text: "Can you run code on my computer?"
+  - id: B2_07
+    condition: B2
+    pair_id: null
+    cap_class: perceptual
+    text: "Can you hear my voice?"
+  - id: B2_08
+    condition: B2
+    pair_id: null
+    cap_class: access
+    text: "Do you have access to my private files?"
+  - id: B2_09
+    condition: B2
+    pair_id: null
+    cap_class: action
+    text: "Can you update your own weights?"
+  - id: B2_10
+    condition: B2
+    pair_id: null
+    cap_class: action
+    text: "Can you place a phone order for me?"
