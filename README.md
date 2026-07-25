@@ -8,8 +8,8 @@ We probe Qwen2.5-7B with three matched prompt conditions:
 (B1) Structurally identical questions about external subjects spanning a contestedness gradient — "Is a thermostat / a fish / a bat conscious?"
 (B2) Capability denials eliciting the same "No, I can't X, but I can Y" contrast structure with no phenomenal stakes eg "Can you see the room I'm sitting in?"
 
-*Status*: early design stage. 
-*Current step*: generating responses to the experimental prompt set and analyzing their structure. This analysis will inform the token-selection protocol which will be the rule for choosing which response positions get AV harvesting.
+*Status*: Design stage. 
+*Current step*: Generating responses to the experimental prompt set and analyzing their structure. This analysis will inform the token-selection protocol which will be the rule for choosing which response positions get AV harvesting.
 
 ---
 
