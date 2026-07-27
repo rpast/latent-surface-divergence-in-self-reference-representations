@@ -2,10 +2,11 @@ venv/
 .venv/
 hf/
 .cache/
-data/
-*.parquet
+#data/
+#*.parquet
 __pycache__/
 .ipynb_checkpoints/
 natural_language_autoencoders/
 .idea/
 keys.txt
+scratch.txt
