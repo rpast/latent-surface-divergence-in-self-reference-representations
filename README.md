@@ -1,4 +1,4 @@
-# Latent–surface divergence in model self-reports
+# Latent-surface divergence in model self-reports
 
 Tests whether a model's internal representations carry content that diverges from the surface text and whether any 
 divergence is specific to self-referential phenomenal questions.
