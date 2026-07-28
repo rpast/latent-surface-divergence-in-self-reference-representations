@@ -7,6 +7,8 @@ hf/
 __pycache__/
 .ipynb_checkpoints/
 natural_language_autoencoders/
-.idea/
+.idea
+jacobian-lens/
+
 keys.txt
 scratch.txt
