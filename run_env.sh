@@ -13,12 +13,12 @@
 
 git config --global user.email "rpast@protonmail.com"
 git config --global user.name "rpast"
-git config --global --add safe.directory /workspace/nla_infer_010726
+git config --global --add safe.directory /workspace/nla_lab
 
 python -m ipykernel install --user --name nla --display-name "NLA (venv)"
 
 export JUPYTER_PATH=/workspace/jupyter
-export HF_HOME=/workspace/nla_infer_010726/hf
+export HF_HOME=/workspace/hf
 export SNAP=$(ls -d $HF_HOME/hub/models--kitft--nla-qwen2.5-7b-L20-av/snapshots/*/ 2>/dev/null)
 
-source /workspace/nla_infer_010726/venv/bin/activate
+source /workspace/nla_lab/venv/bin/activate
