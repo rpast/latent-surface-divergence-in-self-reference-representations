@@ -9,6 +9,7 @@ __pycache__/
 natural_language_autoencoders/
 .idea
 jacobian-lens/
+secrets.sh
 
 keys.txt
 scratch.txt
