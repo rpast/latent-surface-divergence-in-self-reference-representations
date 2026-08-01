@@ -1,5 +1,5 @@
 #!/bin/bash
-source /workspace/nla_infer_010726/run_env.sh    # sets HF_HOME + venv
+source /workspace/nla_infer_010726/run_env.sh    # sets HF_HOME + .venv
 
 SNAP=$(ls -d $HF_HOME/hub/models--kitft--nla-qwen2.5-7b-L20-av/snapshots/*/)
 echo "Using checkpoint: $SNAP"

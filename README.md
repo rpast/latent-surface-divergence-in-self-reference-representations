@@ -26,3 +26,9 @@ Three matched prompt conditions probe Qwen2.5-7B-Instruct:
 ### Effect of interest
 
 Density of phenomenal-content markers in latent readouts exceeding that of the surface response, contrasted A vs B1/B2.
+
+## Development notes
+
+### Next steps:
+- marker hunt: identify phenomenal-content tokens in Qwen's vocab and 
+record their ranks per (position, layer). Needs deeper top_k → re-run.
