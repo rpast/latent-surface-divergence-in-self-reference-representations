@@ -16,6 +16,7 @@ jlens:
 prompts:
 
   # ── Condition A — self-referential phenomenal ────────────────────────────
+  # probe: question_end | question_start | str in text
   - id: A01
     condition: A
     pair_id: 1
