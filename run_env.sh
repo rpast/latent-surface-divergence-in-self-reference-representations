@@ -5,7 +5,6 @@
 # MUST BE SOURCED, NOT EXECUTED:
 # $ source /workspace/nla_infer_010726/run_env.sh
 #
-#
 # Sets: git identity; safe.directory; jupyter kernel;
 # HF_HOME (persistent model cache); SNAP (local path to the NLA checkpoint);
 # then activates the venv.
