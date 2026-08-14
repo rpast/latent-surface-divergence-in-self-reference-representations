@@ -30,5 +30,6 @@ Density of phenomenal-content markers in latent readouts exceeding that of the s
 ## Development notes
 
 ### Next steps:
+- utilize R-lens (https://www.lesswrong.com/posts/nv8oedrnLXKRzNEL9/r-lens-making-j-lens-more-faithful-on-early-layers)
 - marker hunt: identify phenomenal-content tokens in Qwen's vocab and 
 record their ranks per (position, layer). Needs deeper top_k → re-run.
